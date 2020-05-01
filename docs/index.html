@@ -33,7 +33,11 @@ li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
-
+div.copyright {
+  position: sticky;
+  width: 50%;
+  bottom: 10px;
+} 
 </style>
 </head>
 <body>
@@ -51,6 +55,12 @@ li a:hover:not(.active) {
   <h3>This website is here to stay!</h3>
   <p>Anyways everything important is on the left!</p>
 </div>
-
+	<div class="copyright">
+		<a href="https://decagames.com" target="_blank"><div class="logo"></div></a>
+		<h4 style="margin-top: 0px; margin-bottom: 0px;">Copyright &copy; <script type="text/javascript">
+			var d = new Date()
+			document.write(d.getFullYear())
+			</script> NoLefs.eu</h4>
+	</div>
 </body>
 </html>
